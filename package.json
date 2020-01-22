@@ -1,0 +1,16 @@
+{
+ "name": "rock_paper_scissors",
+ "version": "1.0.0",
+ "main": "./dist/index.js",
+ "license": "MIT",
+ "dependencies": {
+  "@types/node": "^13.1.8",
+  "chalk": "^3.0.0",
+  "readline-sync": "^1.4.10",
+  "typescript": "^3.7.5"
+ },
+ "scripts": {
+  "build": "tsc",
+  "start": "node ./dist/index.js"
+ }
+}
